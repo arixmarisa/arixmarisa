@@ -3,7 +3,7 @@
 <img width="100%" src="./assets/top-wave.svg" alt="Purple lavender wave header"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=36&pause=1000&color=C8B6FF&center=true&vCenter=true&repeat=false&width=850&lines=Hi,+I'm+Arianna+Mekovich+⋆˙⟡" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=36&pause=1000&color=C8B6FF&center=true&vCenter=true&repeat=false&width=850&lines=Hi%2C+I%27m+Arianna+Mekovich+%E2%8B%86%CB%99%E2%9F%A1" />
 </p>
 
 <p align="center">
