@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="lavenderTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3ECFF"/>
+      <stop offset="45%" stop-color="#C8B6FF"/>
+      <stop offset="100%" stop-color="#A98DF5"/>
+    </linearGradient>
+    <linearGradient id="lavenderDeep" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DCCBFF"/>
+      <stop offset="55%" stop-color="#B69AFF"/>
+      <stop offset="100%" stop-color="#9F7AEA"/>
+    </linearGradient>
+    <filter id="softGlow" x="-10%" y="-30%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M0,0 H1200 V60 C1040,110 870,52 690,58 C500,64 360,118 180,92 C85,80 25,78 0,70 Z" fill="url(#lavenderTop)" opacity="0.90" filter="url(#softGlow)"/>
+  <path d="M0,55 C130,88 250,84 385,67 C555,43 690,26 850,52 C1000,76 1115,108 1200,70 V0 H0 Z" fill="url(#lavenderDeep)" opacity="0.55"/>
+  <path d="M0,82 C165,128 335,132 500,94 C655,58 755,15 930,74 C1050,114 1130,118 1200,95 V0 H0 Z" fill="#8F6DE8" opacity="0.20"/>
+</svg>
